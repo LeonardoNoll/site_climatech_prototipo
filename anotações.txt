@@ -1,0 +1,39 @@
+PÁGINA INICIAL:
+1 - slider
+
+CARRINHO:
+1 - fazer um visual que passe a ideia de levar para a loja
+
+POVOAMENTO DAS PÁGINAS:
+servicos
+	Instalação
+		Texto pequeno
+		imagem
+		texto
+	Manutenção
+		Texto pequeno
+		imagem
+		texto
+	Vendas
+		Texto pequeno
+		imagem
+		texto
+produtos
+leo
+quemsomos
+	Como trabalhamos
+		Texto pequeno
+		imagem
+		texto	
+	Onde atuamos
+		Texto pequeno
+		imagem
+		texto	
+	Clientes
+		Texto pequeno
+		Imagens
+	Dúvidas frequentes
+		Lista nao numerada
+
+
+!VALIDAR HTML E CSS COM W3C!

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climatech</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/principal.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="logo">
+            <img src="imgs/climatechLogo2.png" alt="Climatech" id="climatechLogo" height="500">
+        </div>
+        <a id="logoCarrinho" href="index.html">
+        <img  src="imgs/botao-home.png" alt="botao-home" height="60">
+        </a>
+    </header>
+    <div id="menu">
+        <div class="navbar">
+            <button  onclick="location.href='quemsomos.html';" id="menu1" class="buttonsbarbuttons">Quem somos</button>
+            <button onclick="location.href='produtos.html';" class="buttonsbarbuttons">Produtos</button>
+            <button onclick="location.href='servicos.html';" class="buttonsbarbuttons">Servi&ccedil;os</button>
+            <button id="menu4" onclick="location.href='formularios.html';" class="buttonsbarbuttons">Fale conosco</button>
+        </div>
+    </div>
+    <div id="corpo">
+        <section class="container" id="containerQuemSomosMenu">
+            <div id="quemSomosMenuContent">
+                <h2 id="quemSomosMenuTitle">Menu</h2>
+                <div id="quemSomosMenuButtonWrapper">
+                    <button onclick="mudarDisplay(1)">Linha industrial</button>
+                    <button onclick="mudarDisplay(2)">Linha comercial</button>
+                    <button onclick="mudarDisplay(3)">Pe&ccedil;as</button>
+                </div>
+            </div>
+        </section>
+        <aside class="container" id="containerProdutosDisplay">
+            <div id="produtosDisplayContent">
+                    <div id="produtosDisplayContentWrapper">
+                        <div id="produtosImgWrapper"><img src="imgs/AHR-EXPO-2023-01.jpg" alt="Produtos" id="produtosImg" height="50"></div>
+                        <p id="pImgTit"></p>
+                        <p id="pImgVal"></p>
+                        <p id="pImgPar"></p>
+                    </div>
+                    <div id="divRadios"></div>
+            </div>
+        </aside>
+    </div>
+    <footer>
+        <div class="divFooter">
+            <h1>Endere&ccedil;o</h1>
+            <p>Rua Cel. Vicente, 281 | Bairro Centro Histórico| CEP: 90.030-041 | Porto Alegre/RS</p>
+        </div>
+        <div class="divFooter">
+            <h1>Telefone de contato</h1>
+            <p>(51) 3930-6002</p>
+        </div>
+    </footer>   
+    <script src="js/produtos.js"></script>
+</body>
+</html>

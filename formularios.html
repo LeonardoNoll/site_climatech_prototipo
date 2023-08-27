@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climatech</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/principal.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="logo">
+            <img src="imgs/climatechLogo2.png" alt="Climatech" id="climatechLogo" height="500">
+        </div>
+        <a id="logoCarrinho" href="index.html">
+        <img  src="imgs/botao-home.png" alt="botao-home" height="60">
+        </a>
+    </header>
+    <div id="menu">
+        <div class="navbar">
+            <button  onclick="location.href='quemsomos.html';" id="menu1" class="buttonsbarbuttons">Quem somos</button>
+            <button onclick="location.href='produtos.html';" class="buttonsbarbuttons">Produtos</button>
+            <button onclick="location.href='servicos.html';" class="buttonsbarbuttons">Servi&ccedil;os</button>
+            <button id="menu4" onclick="location.href='formularios.html';" class="buttonsbarbuttons">Fale conosco</button>
+        </div>
+    </div>
+    <div id="corpo">
+        <div class="msgAuxiliar container">
+            <div class="msgText" style="grid-area: text;">
+                <h3>Converse com a nossa equipe</h3>
+                <p>Preencha o formulário ao lado e nós entraremos em contato com você.</p>
+            </div>
+            <div class="WrapImg" style="grid-area: img;">
+                <img src="imgs/AHR-EXPO-2023-01.jpg" id="ImgConf" alt="conferencia da joap">
+            </div>
+        </div>
+        <form class="gridForms container">
+            <div class="tamanho-grid-4" style="grid-area: nome;">
+                <input type="text" name="nome" class="modeloForms required" placeholder="*Nome" oninput="nameValidate()">
+                <span class="span-required">*Nome deve ter no mínimo 3 caracteres</span>
+            </div>    
+            <div class="tamanho-grid-1" style="grid-area: email;">
+                <input type="email" name="email" class="modeloForms required" placeholder="*E-mail" oninput="emailValidate()">
+                <span class="span-required">*Digite um e-mail válido</span>
+            </div>
+            <div class="tamanho-grid-2" style="grid-area: telefone;">
+                <input type="text" name="tel" class="modeloForms required" placeholder="*Telefone" maxlength="16" oninput="phoneValidate()">
+                <span class="span-required">*Digite um telefone válido</span>
+            </div>
+            <div class="tamanho-grid-2" style="grid-area: empresa;">
+                <input type="text" name="empresa" class="modeloForms" placeholder="Empresa"> 
+                <span class="span-unrequired">.</span>
+            </div>
+            <div class="tamanho-grid-4" style="grid-area: categoria;">
+                <select name="Categoria" class="modeloForms">
+                    <option value>Assunto</option>
+                    <option value="Instalacao">Instala&ccedil;&atilde;o</option>
+                    <option value="Manutencao">Manuten&ccedil;&atilde;o</option>
+                    <option value="Manutencao">Vendas</option>
+                    <option value="Manutencao">Outros</option>
+                </select>
+                <span class="span-unrequired">.</span>
+            </div>
+            <div class="tamanho-grid-4" style="grid-area: mensagem;">
+                <input type="text" name="mensagem" class="modeloForms required" placeholder="*Mensagem" oninput="mensagemValidate()">
+                <span class="span-required">*Mensagem muito curta</span>
+            </div>
+            <div class="tamanho-grid-4" style="grid-area: enviar;">
+                <input type="submit" id="enviar" value="Enviar">
+                <p id="adendo">*Campos obrigatorios</p>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <div class="divFooter">
+            <h1>Endere&ccedil;o</h1>
+            <p>Rua Cel. Vicente, 281 | Bairro Centro Histórico| CEP: 90.030-041 | Porto Alegre/RS</p>
+        </div>
+        <div class="divFooter">
+            <h1>Telefone de contato</h1>
+            <p>(51) 3930-6002</p>
+        </div>
+    </footer>
+    <script src="./js/formularios.js"></script>   
+</body>
+</html>
