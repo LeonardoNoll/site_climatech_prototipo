@@ -1,0 +1,65 @@
+REVISAR:
+
+PÁGINA INICIAL (quadro à direita)
+**A Climatech é uma empresa especializada em prover soluções de alta qualidade e eficiência em climatização. Somos um representante autorizado Joape® e trabalhamos com venda, instalação e manutenção de climatizadores da marca.
+
+BOTÃO (alterar texto)
+**Conheça nossas soluções
+
+http://aula.inf.poa.ifrs.edu.br/~85286621015/site/formularios.html
+*Converse com a nossa equipe (título)
+*Preencha o formulário ao lado e nós entraremos em contato com você. (texto)
+
+TROCAR DE TIPO DE ORÇAMENTO PARA: 
+*ASSUNTO 
+*INSTALAÇÃO - MANUTENÇÃO - VENDAS - OUTROS
+
+
+QUEM SOMOS
+
+*Como trabalhamos:
+*Com uma trajetória de mais de 20 anos de mercado, na Climatech você encontra qualidade e garantia nos serviços prestados, através de uma equipe composta por profissionais qualificados para melhor atender a sua necessidade.
+*Atendemos o seu projeto de climatização residencial, comercial e industrial, seguindo todas as normas técnicas e boas práticas de mercado, visando sempre a sua segurança e bem estar.
+*Como representante autorizado Joape®, todos os nossos serviços utilizam apenas peças originais, certificando qualidade e durabilidade aos equipamentos. Temos a solucao para seu problema, seja ele do tamanho que for.
+
+Onde atuamos:
+*Atendemos clientes residenciais, comerciais e industriais em Porto Alegre e Região.
+*Temos experiência no atendimento de diversos segmentos, como: indústrias, hospitais, escolas, clubes, lojas, entre outros ambientes que necessitem de climatização adequada e manutenção periódica.
+
+Clientes: (logos)
+GRENDENE*
+GERDAU*
+HOSPITAL MÃE DE DEUS*
+CENTRO CLÍNICO GAÚCHO*
+UNIMED*
+LA SALLE SANTO ANTÔNIO*
+GRÊMIO NÁUTICO GAÚCHO*
+LOJAS QUERO QUERO*
+LOJAS LEBES*
+TUMELERO*
+
+*Dúvidas Frequentes: RETIRAR
+
+*SERVIÇOS
+
+*INSTALAÇÃO
+*Projetamos a solução para você ou executamos o seu projeto. 
+*Nossos serviços de instalação dispõem de diversos planos, que incluem desde a análise inicial até a manutenção preventiva dos equipamentos, conforme a sua necessidade e disponibilidade, para sua maior segurança e tranquilidade
+
+*MANUTENÇÃO
+*Trabalhamos com manutenção preventiva e corretiva de toda a linha de climatizadores Joape®. 
+*Nossa equipe técnica passa por treinamentos e avaliações periódicas, mantendo a excelência na prestação de um serviço qualificado, atualizado e dinâmico, adaptado à sua demanda.
+
+*VENDA
+*Nossa equipe de especialistas é altamente qualificada para oferecer a você a melhor solução para o seu ambiente, buscando viabilidade técnica, segurança, conforto térmico e eficiência energética. 
+*Além disso, você pode contar com nossa central de atendimento pós venda, que está preparada para auxiliar e orientar você sobre qualquer assunto em que a Climatech possa auxiliá-lo.
+
+
+OBSERVAÇÕES
+orçamento está enviando mesmo com menos de 3 caracteres.
+*sem botão para página inicial. colocar no menu?
+*mudar campo contatos para 'FALE CONOSCO'
+*usar apenas formulário fale conosco
+*colocar letra maiúscula na segunda palavra
+*como TA-BA-LHA-MOS
+*em serviços ajustar subtitulos na janela da direita

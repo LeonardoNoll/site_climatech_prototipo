@@ -1,0 +1,696 @@
+:root{
+    --azul-profundo:#322d97;
+    --azul-degrade:#453DDB;
+    --azul-detalhes:#8783E1;
+}
+body{
+    /*REVER background-image:linear-gradient(to bottom, var(--azul-degrade), var(--azul-profundo)) ; */  
+    /* background-color: rgb(199, 255, 255); */
+    /* font-family: 'SF Pro Display','SF Pro Icons','AOS Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+    font-family: 'SF Pro Display','SF Pro Icons','AOS Icons', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+html{
+    background-image:radial-gradient(rgba(248, 252, 252, 0.521) , rgba(140, 230, 236, 0.521)); 
+}
+
+/**==============================================INICIO BASE==============================================*/
+#cabecalho{
+    background-image:linear-gradient(to bottom, var(--azul-degrade), var(--azul-profundo)) ;
+    /* position: absolute; */
+    /* top: 0%; */
+    left: 0%;
+    width: 100%;
+    height: 15dvh;
+    color: white;
+    margin: 0%;
+    padding: 0% 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 10% 10%;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);    
+}
+#logoCarrinho{
+    position: absolute;
+    margin-right: -80%;
+}
+.logo{
+    width: fit-content;
+    height: fit-content;
+    margin: 5px 50px;
+}
+#climatechLogo{
+    height: 80%;
+    width: 100%;
+}
+
+#menu{
+    /* position: absolute; */
+    top: 15%;
+    left: 0%;
+    width: 100%;
+    height: 10dvh;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .navbar{
+        border-radius: 10px;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);        
+        display: flex;
+        justify-content: center;
+        width: fit-content;        
+    }
+    
+    #menu1{
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    #menu4{
+        border-radius: 0px 10px 10px 0px;
+    }
+    .buttonsbarbuttons{
+        border: none;
+        background-color: var(--azul-detalhes);
+        color: aliceblue;
+        font-size: larger;
+        padding: 5px;
+        transition: 250ms;
+        margin: 0;
+    }
+
+    .buttonsbarbuttons:hover{
+        background-color: var(--azul-degrade);
+        cursor: pointer;
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+#corpo{                                                     /*!CORPO BASE*/
+    /* background-color: aquamarine; */
+    /* position: absolute; */
+    /* top: 25%; */
+    left: 0%;
+    width: 100%;
+    height: 65dvh;   
+    /* height: 65vh; */
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container{
+    min-height: 50px;
+    min-width: 50px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+}
+@media (max-width:500px) {
+    #corpo {
+        flex-direction: column;
+        height: 90dvh;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+        .container {
+            margin: 10px auto;
+    }
+    #menu {
+        height: fit-content;
+        margin: 10px auto;
+    }
+    .navbar{
+        /* flex-direction: column;
+        justify-content: space-around; */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: fit-content;
+        box-shadow: none;
+    }
+    .navbar a{
+        margin: 2px;
+    }
+    .buttonsbarbuttons{
+        /* margin: 2px; */
+        border-radius: 10px;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+        width: 100%;
+    }
+    #menu1{
+        border-radius: 10px;
+    }
+
+    #menu4{
+        border-radius: 10px;
+    }
+    #logoCarrinho{
+        height: 40px;
+        position: absolute;
+        margin-right: -87%;
+        margin-top: -10%;
+    }    
+}
+/*!==============================================FIM BASE==============================================*/
+/**==============================================INICIO INDEX==============================================*/
+.sliderWrapper{                                             
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.966);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    /* margin: 0 2.5%; */
+    width: 50%;
+    max-width: 640px;
+    height: 80%;
+    overflow: hidden;
+}
+.sliderWrapper h1{        
+    color: var(--azul-degrade);
+    font-size: 2em;          
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+#clima{
+    height: 80%;
+}
+.servicos{
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
+    align-items: center;
+    padding: 0 2.5%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.966);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    width: 30%;
+    max-width: 400px;
+    height: 80%;
+    max-height: fit-content;
+}
+
+.tituloForm{
+    text-align: center;
+    font-size: 1.5em;
+    width: 90%;
+    height: auto;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: #8783E1;
+    color: white;
+    text-shadow: 0px 0px 15px #c7c5e2;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    transition: 500ms;
+    z-index: 2;
+    line-height: 1.4;
+    margin: 10px auto 0 auto;
+}
+
+.tituloForm:hover{
+    text-shadow: 0px 0px 10px #ffffff;
+}
+.linkOrcamento{
+    /* background-color: var(--azul-degrade); */
+    background-image: linear-gradient(var(--azul-degrade), var(--azul-profundo)90%, var(--azul-degrade));
+    color: aliceblue;
+    font-size: larger;
+    padding: 5%;
+    border: 1px solid white;
+    border: none;
+    border-radius: 10px;
+    transition: 500ms;  
+    display: block;
+    margin: 20px auto auto auto;
+}
+
+.linkOrcamento:hover{
+    box-shadow: 0px 0px 10px white;
+    cursor: pointer;
+}
+.explicacaoForm{
+    text-align: justify;
+    padding: 4% 8% 4% 8%;
+    width: 70%;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background-color: #8783E1;
+    color: white;
+    text-shadow: 0px 0px 15px #c7c5e2;
+    margin: 10px auto 0  auto;
+    z-index: 1;
+    line-height: 1.4;
+}               
+@media (max-width:650px) {
+    .sliderWrapper {
+        width: 80%;
+        margin: 10px 0;
+    }
+    .servicos{
+        /* max-height: fit-content; */
+        width: 80%;
+        padding: 0%;
+        margin: 10px 0;
+    }
+    .explicacaoForm{
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+}                                               
+/*!==============================================FIM INDEX==============================================*/
+/**==============================================INICIO QUEMSOMOS==============================================*/
+#containerQuemSomosMenu{                                        
+    height: 80%;
+    width: 30%;
+    /* padding: 0px 3%; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#quemSomosMenuContent{
+    /* border: solid black; */
+    width: 100%;
+    height: 95%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2.5% 1%;
+}
+
+#quemSomosMenuContent h2{
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 2.5%;
+}
+
+#quemSomosMenuButtonWrapper{
+    /* border: solid black; */
+    border-top: solid var(--azul-degrade);
+    border-bottom: solid var(--azul-degrade);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    height: 100%;
+    text-align: center;
+    padding: 2%;
+}
+
+#quemSomosMenuButtonWrapper button{
+    display: block;
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--azul-detalhes);
+    color: aliceblue;
+    font-size: larger;
+    padding: 5px;
+    transition: 250ms;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+}
+#quemSomosMenuButtonWrapper button:hover{
+    background-color: var(--azul-degrade);
+}
+#containerQuemSomosDisplay{
+    height: 80%;
+    width: 50%;
+    padding: 0px 3%;
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+#quemSomosDisplayContent{
+    /* border: solid black; */
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* min-height: 500px; */
+    padding: 2.5% 1%;
+    width: 100%;
+}
+
+#quemSomosDisplayContent h2{
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+#quemSomosDisplayContentContent{
+    /* border: #000000 solid; */
+    border-top: solid var(--azul-degrade) 3px;
+    border-bottom: solid var(--azul-degrade) 3px;
+    display: block;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    /* min-height: 100%; */
+    height: 100%;
+    max-height: fit-content;
+    width: 100%;
+    text-align: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#quemSomosDisplayContent p{
+text-align: justify;
+line-height: 1.4;
+margin: 8px 0;
+}
+#quemSomosImgWrapper{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}                                                           
+#quemSomosDisplayContent img{
+    /* width: 100%; */
+    border-radius: 5px;
+    margin: 5px;
+    transition: 300ms;
+}
+
+@media (max-width:500px){
+    #quemSomosDisplayContent h2, #quemSomosMenuContent h2{
+        font-size: 1.8em;
+    }
+    #containerQuemSomosMenu, #containerQuemSomosDisplay{
+        width: 80%;
+    }
+
+}
+/*!==============================================FIM QUEMSOMOS==============================================*/
+/**==============================================INICIO ORCAMENTO==============================================*/
+.gridForms{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:                    
+                         "nome nome nome nome"        
+                         "email email telefone telefone"
+                         "empresa empresa none none"
+                         "categoria categoria categoria categoria"
+                         "mensagem mensagem mensagem mensagem"
+                         "enviar enviar enviar enviar";  
+    width: 60%;
+    height: 80%;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+.gridForms div{    
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 5px 5px 10px;
+}
+
+.modeloForms{
+    background-color: rgb(221, 221, 221);
+    border: 1px solid rgba(59, 59, 59, 0.425);
+    border-radius: 5px;
+    width: 98%;
+    height: 65%;
+    padding: 5px;
+    font-size: medium;
+    box-sizing: border-box;
+}
+
+.modeloForms:focus{
+    background-color: white;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    outline: black 1px;
+    color: black;
+}
+
+.span-required, .span-unrequired{
+    /* display: none; */
+    color: #ffffff00;
+    position: relative;
+    top: 5px;
+    font-size: 0.8em;
+}
+select{
+    color: rgb(122, 122, 122);
+}
+::placeholder {
+    color: rgb(122, 122, 122);
+    opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(122, 122, 122);
+}
+   
+ ::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(122, 122, 122);
+}
+.msgAuxiliar{
+    border: none;
+    height: 80%;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white; 
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.msgText{
+    color: #000000;
+    height: fit-content;
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: solid var(--azul-degrade);
+    padding: 3px;
+}
+
+.msgText h3{
+    font-size: x-large;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+.msgText p{
+    line-height: 1.4;
+    width: 100%;
+}
+
+.WrapImg{
+    /* border: #000000 solid; */
+    width: 80%;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+#ImgConf{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+
+}
+#enviar{
+    margin: auto auto;
+    height: 30px;
+    /* width: 70%; */
+    min-width: 80px;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(221, 221, 221) ;
+    box-shadow: 3px 3px 0 #7a7a7a;
+    /* transition: 250ms; */
+}
+
+#enviar:hover{
+    cursor: pointer;
+}
+#enviar:active{
+    transform: translateY(3px) translateX(3px);
+    box-shadow: none;
+}
+
+#adendo{
+    color: red;
+    margin: auto;
+}
+@media (max-width:500px){
+    .gridForms, .msgAuxiliar{
+        width: 80%;
+    }
+    .gridForms{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+    .gridForms div{
+        width: 100%;
+    }
+}
+
+/*!==============================================FIM ORCAMENTO==============================================*/
+/**==============================================INICIO PRODUTOS==============================================*/
+#containerProdutosDisplay{
+    height: 80%;
+    width: 40%;
+    max-width: 350px;
+}
+#produtosDisplayContent{
+    /* border: solid 1px black; */
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#produtosDisplayContentWrapper{
+    border: var(--azul-degrade) solid 2px;
+    border-radius: 10px;
+    margin: 5px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 90%;
+    overflow: hidden;
+}
+#produtosImgWrapper{
+    height: 65%;
+    box-shadow: 3px 3px 0px var(--azul-detalhes);
+    border: solid 1px var(--azul-detalhes);
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    overflow: hidden;
+}
+#produtosImg{
+    height: 100%;
+}
+#produtosDisplayContentWrapper p{
+    align-self: flex-start;
+    margin-left: 12%;
+    line-height: 1.5;
+}
+#pImgTit{
+    font-weight: bold;
+}
+#pImgVal{
+    font-size: 0.9em;
+    color: #000000a4;
+}
+#pImgPar{
+    font-weight: bolder;
+    color: #1b7405;
+}
+#divRadios{
+    /* border: #322d97 solid 1px; */
+    margin: 0 0 5% 0;
+    /* margin-top: 100%; */
+    /* bottom: 0%; */
+}
+
+input[type=radio]{
+    transition: none;
+}
+#produtosImgWrapper img, #produtosImgWrapper{
+    width: 200px;
+    height: 200px;
+}
+
+@media (max-width: 500px) {
+    #containerProdutosDisplay{
+        width: 80%;
+        max-width: none;
+        height: 120%;
+        max-height: fit-content; 
+    }
+    #produtosDisplayContent span, #produtosImgWrapper{
+        height: fit-content;
+        /* margin: 5px; */
+        /* overflow: visible; */
+    }
+}
+/*!==============================================FIM PRODUTOS==============================================*/
+/**INICIO FOOTER */
+footer{
+    background-image:linear-gradient(to top, #453DDB, #322d97) ;
+    position: absolute;
+    /* top: 90%; */
+    left: 0%;
+    width: 100%;
+    height: 10%;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* bottom: 0%; */
+}
+
+.divFooter{
+    /* margin: 1.5% 10% 1.5% 10%; */
+    margin: 1.5% 0% 1.5% 0%;
+    width: 30%;
+    padding: 0.5%;
+    border-left: solid 1px rgb(255, 255, 255);
+    text-align: left;
+    color: white;
+}
+
+.divFooter h1{
+    font-weight: bold;
+}
+
+.divFooter p{
+    font-size: small;
+    margin: 0.3% 0 0 0;
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    margin-top: 1.5%;
+}
+
+@media (max-width:500px){
+    .divFooter{
+        width: 100%;
+    }
+
+    footer{
+        height: fit-content;
+        width: 90%;
+        padding: 5%;
+    }
+}
+
+/**FIM FOOTER */
+
